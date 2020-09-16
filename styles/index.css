@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  box-shadow: 0 -10px 25px #888888;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+button:hover {
+  opacity: 0.5;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h1 {
+  font-weight: 300;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  color: #707070;
+}
+.nav ul li {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.nav ul li:hover {
+  border-bottom: 1px solid #f000;
+  font-size: 25px;
+  opacity: 0.8;
+}
+/* start section title */
+.title {
+  width: 100%;
+}
+.title .content {
+  margin-top: 60px;
+  width: 50%;
+}
+.title .content h2 {
+  font-size: 30px;
+  color: #303036;
+  margin-bottom: 25px;
+}
+.title .content p {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.title .content button {
+  background-color: #707070;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+/* end section title */
+/* start section card */
+.list {
+  width: 100%;
+  background-color: #fff8f2;
+  margin-top: 150px;
+}
+.list .items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin-top: -58px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card .Tips {
+  color: #9fa1aa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* end section card */
+/*start section popular*/
+.popular {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.popular .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .flex span {
+  font-size: 20px;
+}
+/* end section popular*/
+/*start section items popular */
+.list-popular {
+  width: 100%;
+}
+.list-popular .items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+/* end section items popular*/
+/*start section subscribe */
+.subscribe {
+  width: 100%;
+  background-color: #fff8f2;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+.sub div {
+  width: 60%;
+}
+.sub div h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.sub div p {
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+.sub button {
+  background-color: #ffbf9d;
+  color: #fff;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+/* end section subscribe */
+/* start section About*/
+/* End section About */
+.About-lura {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.About-lura img {
+  height: 100%;
+}
+.about h5 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.about span {
+  font-size: 15px;
+  color: #9fa1aa;
+}
+.about p {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  line-height: 2;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.about button {
+  color: #fff;
+  background-color: #595c69;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 20%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+footer {
+  margin-top: 50px;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* start media query */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 550px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 1205px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* End media query */
